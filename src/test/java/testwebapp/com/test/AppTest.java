@@ -17,7 +17,7 @@ public class AppTest {
 		driver.get("https://kausunnadevopsproject.azurewebsites.net/webapp/");
 		String text = driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
-		Assert.assertTrue(text.equalsIgnoreCase(" Kausunna is Learning Devops "));
+		Assert.assertTrue(text.equalsIgnoreCase("Kausunna is Learning Devops"));
 		driver.close();
 
 	}
